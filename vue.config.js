@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   // Docs folder output in order to use githubpages
+  publicPath: process.env.NODE_ENV === 'production' ? '/blog/': '/',
   outputDir: path.resolve('./docs'),
   configureWebpack: {
     resolve: {
