@@ -1,0 +1,31 @@
+$main-color: #00798C;
+$secondary-color:#3E78B2;
+$complementary-color:#D4B483;
+$base-text-color: #3C3C3C;
+
+$heartred: hsl(0, 97%, 45%);
+
+$link: $main-color;
+$link-hover: $complementary-color;
+
+// Container desktop sizes
+$navbar-container-height: 100px ;
+$footer-container-heigth: 100px;
+$page-width: 60%;
+// Icon sizes
+
+// Breakpoints
+
+
+//Font properties
+
+// Import a Google font
+@import url('https://fonts.googleapis.com/css?family=Raleway|Nobile|Karma');
+$theme-font-display: 'Raleway', sans-serif;
+$theme-font-secondary: 'Nobile', sans-serif;
+$theme-font-regular: 'Karma', serif;
+$font-default-size: 18px;
+$font-h1-size: 2em;
+$font-h2-size: 1.5em;
+$font-h3-size: 1em;
+$font-nav-icons: 1.1em;
