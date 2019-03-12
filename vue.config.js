@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   // Docs folder output in order to use githubpages
-  outputDir: path.resolve('../docs'),
+  outputDir: path.resolve('./docs'),
   configureWebpack: {
     resolve: {
       extensions: [
