@@ -39,6 +39,7 @@ module.exports = {
     parser: 'babel-eslint',
   },
   rules: {
+    "quotes": ["error", "double"],
     "prefer-arrow-callback": "off",
     "arrow-body-style": "off",
     "comma-dangle": "off",
